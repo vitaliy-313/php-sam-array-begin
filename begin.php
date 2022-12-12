@@ -102,7 +102,7 @@
         
 
 usort($arr, function ($a, $b){
-    return($b["price"]<=> $a["price"]);
+    return($b["house"]<=> $a["house"]);
     }
 );
 
